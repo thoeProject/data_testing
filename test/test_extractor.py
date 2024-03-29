@@ -16,8 +16,7 @@ def test_add_zero():
     assert extractor.add(0, 0) == 0
 
 
-
-#Data Frame
+# Data Frame
 @pytest.mark.parametrize("input_data, expected_data", [
     ({'A': [1, 2, 3], 'B': [4, 5, 6]}, {'A': [2, 4, 6], 'B': [8, 10, 12]}),
     ({'A': [0, 0, 0], 'B': [0, 0, 0]}, {'A': [0, 0, 0], 'B': [0, 0, 0]}),
